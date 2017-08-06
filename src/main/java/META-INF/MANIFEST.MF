@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: reflections-0.9.11.jar guice-4.1.0.jar aopalliance-1.0.jar
+  gson-2.8.1.jar javassist-3.21.0-GA.jar javax.inject-1.jar guava-19.0
+ .jar log4j-api-2.8.2.jar log4j-core-2.8.2.jar
+
