@@ -82,6 +82,7 @@ public class Configuration {
         filter.include(FilterBuilder.prefix("pers.younghan.umizoo.messaging.HandleResult"));
         filter.include(FilterBuilder.prefix("pers.younghan.umizoo.messaging.CommandResultGenerated"));
         filter.include(FilterBuilder.prefix("pers.younghan.umizoo.messaging.QueryResultBuilt"));
+        filter.include(FilterBuilder.prefix("pers.younghan.umizoo.messaging.PagedQuery"));
         for (String qualifiedName : packages) {
             filter.include(FilterBuilder.prefix(qualifiedName));
         }
